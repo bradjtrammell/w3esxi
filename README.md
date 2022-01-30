@@ -1,4 +1,3 @@
-### [OLD] W3ESXi - a module for WHMCS to manage VMs on Vmware ESXi/ESX
+### -- In development -- 
 
-I wrote this module 4 years ago for whmcs 4.x and 5.0.x. I decided to make it open source many times, but you know, developers are lazy! Today I see my codes and I don't even know what they are! Is it really written in php?! Oh man! world changes so fast! so please don't blame me if it doesn't work!
-
+This is a module for WHMCS to communicate with VMWare ESX servers. The original version of this module was designed for PHP 4 and PHP 5, I'm developing and testing on PHP 7 and 8 with plans to include support for additional PHP versions.
