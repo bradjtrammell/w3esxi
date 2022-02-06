@@ -7,7 +7,7 @@ class W3ERender
     private $output = '';
     private $vmware;
 
-    public function W3ERender()
+    public function __construct()
     {
 
         $this->checkPHPRequirment();
