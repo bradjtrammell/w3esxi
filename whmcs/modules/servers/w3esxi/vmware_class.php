@@ -26,7 +26,7 @@ class LibSSH2
 
     private $lib;
 
-    public function LibSSH2($library)
+    public function __construct($library)
     {
         $this->lib = 'phpseclib';
         if ($library == 'phpext') {
