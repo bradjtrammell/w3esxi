@@ -1,42 +1,52 @@
-///////////////////////////////////////////////////////////////////////////
-// W3ESXi — PROJECT RETIRED / END OF LIFE
-///////////////////////////////////////////////////////////////////////////
-// This repository is no longer maintained or supported.
-// NO further updates, compatibility work, security fixes, or support.
-// DO NOT deploy this code to new or production installations.
-// The following installation notes are retained solely as historical
-// documentation. They are not current or validated instructions.
-///////////////////////////////////////////////////////////////////////////
+W3ESXi
+Legacy WHMCS integration for VMware ESXi
+===============================================================================
 
-///////////////////////////////////////////////////////////////////////////
-// W3ESXi - A module for WHMCS 7+
-///////////////////////////////////////////////////////////////////////////
-// What does this do?
-///////////////////////////////////////////////////////////////////////////
-// This module allows for the installation, and management of servers on
-// a VMWare ESXi host. Multiple hosts can be setup.
-///////////////////////////////////////////////////////////////////////////
-// Release Date: 06 Feb 2022
-// PHP Versions: PHP 7.0+ (historical claim; not current compatibility)
-// Version: 0.8.0
-///////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////
-// HISTORICAL INSTALLATION INSTRUCTIONS — DO NOT USE FOR NEW DEPLOYMENTS
-///////////////////////////////////////////////////////////////////////////
-// 1.) Download zip folder to your local machine
-// 2.) Extract archive to your desktop or other folder
-// 3.) Upload contents of "WHMCS" folder to your install's root directory
-// 4.) Copy "_CSS/images" folder to your templates images folder.
-// 5.) Copy contents of "clientarea_add_css_to_your_template.txt" to your templates main stylesheet.
-// 6.) In the Admin Panel, enable the Add On.
-// 7.) Setup the server in your "Servers" installation
-// 8.) Create your first product and assign the server
-///////////////////////////////////////////////////////////////////////////
-// The following historical support instruction is no longer applicable.
-// Previous guidance referred users to the WHMCS forums.
-///////////////////////////////////////////////////////////////////////////
-// Credits:
-///////////////////////////////////////////////////////////////////////////
-// Original Code: alibo
-///////////////////////////////////////////////////////////////////////////
+PROJECT RETIRED — END OF LIFE
+-------------------------------------------------------------------------------
+Status:                   RETIRED
+Development and releases: DISCONTINUED
+Security updates:         NOT PROVIDED
+Compatibility updates:    NOT PROVIDED
+Support:                  NOT PROVIDED
+
+W3ESXi is no longer maintained or supported. Do not deploy this software to
+new or production environments. The instructions below are preserved only for
+historical reference; they are not validated against current software.
+
+Current project notice:
+https://github.com/bradjtrammell/w3esxi#readme
+
+HISTORICAL RELEASE INFORMATION
+-------------------------------------------------------------------------------
+Version:       0.8.0
+Release date:  February 6, 2022
+Original scope: WHMCS 7+ module for provisioning and managing servers on
+                multiple VMware ESXi hosts
+PHP reference: PHP 7.0+ (historical documentation only)
+
+These historical version references do not establish compatibility with
+modern releases of PHP, WHMCS, VMware ESXi, or vSphere.
+
+HISTORICAL INSTALLATION NOTES — NOT FOR NEW DEPLOYMENTS
+-------------------------------------------------------------------------------
+The following steps are retained for archival context only.
+
+  1. Download the repository archive to the local computer.
+  2. Extract the archive.
+  3. Upload the contents of the "WHMCS" folder to the WHMCS installation root.
+  4. Copy "_CSS/images" to the active template's images folder.
+  5. Add the contents of "clientarea_add_css_to_your_template.txt" to the
+     template's main stylesheet.
+  6. Enable the add-on in the WHMCS administration panel.
+  7. Configure an ESXi host in WHMCS server settings.
+  8. Create a product and assign the configured server.
+
+These are historical instructions, not a supported or secure deployment
+procedure. The former recommendation to seek installation help on the WHMCS
+forums is obsolete.
+
+CREDITS
+-------------------------------------------------------------------------------
+Original module code: alibo
+Subsequent W3ESXi development and repository maintenance: Brad Trammell
